@@ -1,0 +1,36 @@
+body
+{
+   background-color: rgba(52, 9, 93, 0.649);
+}
+
+h1
+{
+  color:rgb(201, 179, 246);
+  background-color: rgb(21, 112, 112);
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border:5px solid rgba(122, 133, 220, 0.932);
+    border-radius:20px;
+    animation-name: shadow;
+    animation-duration: 7s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px black;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
